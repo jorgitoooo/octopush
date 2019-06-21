@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0 1px 0 1px;
+}
+
+a, a:hover, a:visited {
+    color: blueviolet;
+    text-decoration: none !important;
+}
+
+.bg-white:hover {
+    opacity: .9;
+}
+
+#websites-btn:hover, .trash-btn:hover {
+    background: rgba(255,255,255,.1);
+}
+
+.trash-btn {
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid blueviolet;
+    /* margin: 0 !important; */
+    width: 400px !important;
+}
+
+.bg-purp {
+    background-color: blueviolet;
+}
+
+.btn-purp {
+    background-color: blueviolet;
+}
+
+.btn-purp:hover {
+    background-color: rgb(122, 38, 201);
+}
+
+.text-purp {
+    color: blueviolet;
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
