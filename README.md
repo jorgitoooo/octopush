@@ -1,3 +1,3 @@
-<span align="center">
-    <h1><img width="40px" src="/images/icon_128.png" alt="Octopush"> OCTOPUSH </h1>
-</span>
+<div style="text-align: center;">
+    <img width="600px"src="./images/promo_banners/tile_640.png" alt="Octopush">
+</div>
