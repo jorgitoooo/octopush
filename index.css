@@ -1,51 +1,66 @@
-html, body {
-    margin: 0;
-    padding: 0 1px 0 1px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px rgba(137, 43, 226, 0.582);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
-a, a:hover, a:visited {
-    color: blueviolet;
-    text-decoration: none !important;
+a,
+a:hover,
+a:visited {
+  color: blueviolet;
+  text-decoration: none !important;
 }
 
 .bg-white:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
-#websites-btn:hover, .trash-btn:hover {
-    background: rgba(255,255,255,.1);
+#websites-btn:hover,
+.trash-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .trash-btn {
-    padding: 10px;
+  padding: 10px;
 }
 
 .card {
-    border: 1px solid blueviolet;
-    /* margin: 0 !important; */
-    width: 400px !important;
+  border: 1px solid blueviolet;
+  width: 400px !important;
 }
 
 .bg-purp {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 .btn-purp {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 .btn-purp:hover {
-    background-color: rgb(122, 38, 201);
+  background-color: rgb(122, 38, 201);
 }
 
 .text-purp {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
